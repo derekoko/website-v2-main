@@ -1,12 +1,15 @@
 {
   "name": "website-v2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@types/node": "20.4.10",
