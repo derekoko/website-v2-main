@@ -1,5 +1,5 @@
-import logo from "../public/1.png";
-import Link from 'next/link'
+import logo from '../public/1.png';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-black sm:text-center">
-          © 2023{" "}
+          © 2023{' '}
           <Link href="http://www.seeqrapp.com/" className="hover:underline">
             SeeQR
           </Link>

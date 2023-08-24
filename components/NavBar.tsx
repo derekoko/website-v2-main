@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import logo from '../public/1.png';
 import { useRouter } from 'next/router';
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function NavBar(): JSX.Element {
   const router = useRouter();
-  
 
   const [menuOpen, setMenuOpen] = useState(false); // Added this state
 
